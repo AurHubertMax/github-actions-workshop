@@ -1,6 +1,6 @@
   name: CI
 
-  on: # trigger - either when merging to "main" branch or manually
+  on: # trigger - either when pushing to "main" branch or manually
     push:
       branches: ["main"]
     workflow_dispatch:
